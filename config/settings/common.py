@@ -44,6 +44,7 @@ DJANGO_APPS = (
     'questionnaire',
     'import_export',
     'rest_framework',
+    'fichesVita',
 
 )
 

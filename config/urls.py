@@ -13,6 +13,7 @@ urlpatterns = [
     path('admin/', admin.site.urls, name="admin"),
    	path('accounts/', include('accounts.urls')),
     path('questionnaire/', include('questionnaire.urls'), name="questionnaire"),
+    path('fichesVita/', include('fichesVita.urls'), name="fichesVita"),
     path('api-auth', include('rest_framework.urls')),
     path('api/', include('api.urls'), name="api"),
     
